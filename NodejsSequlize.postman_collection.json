@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "8e3562b9-7a94-4e33-8d0e-7d56b53c5997",
+		"name": "NodejsSequlize",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30241639"
+	},
+	"item": [
+		{
+			"name": "authUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/auth/authUser"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/post/getAllPost"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllTagPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/post/getAllTagPost"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPostTag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/postTag/getAllPostTag"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllTagPostData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:7000/api/postTag/getAllTagPostData"
+			},
+			"response": []
+		},
+		{
+			"name": "tagData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:7000/api/tags/tagData"
+			},
+			"response": []
+		},
+		{
+			"name": "getTagDataById",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "iTagId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/tags/getTagDataById"
+			},
+			"response": []
+		},
+		{
+			"name": "addTagData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/tags/addTagData"
+			},
+			"response": []
+		},
+		{
+			"name": "updateTagData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vName",
+							"value": "Test123",
+							"type": "text"
+						},
+						{
+							"key": "iTagId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/tags/updateTagData"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTagData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "iTagId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:7000/api/tags/deleteTagData"
+			},
+			"response": []
+		},
+		{
+			"name": "findAllUserData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:7000/api/user/test"
+			},
+			"response": []
+		},
+		{
+			"name": "findAllPostUserData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:7000/api/user/postanduser"
+			},
+			"response": []
+		}
+	]
+}
